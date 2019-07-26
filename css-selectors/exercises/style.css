@@ -1,0 +1,70 @@
+table {
+    border-collapse: collapse;
+    width: 240px;
+    height: 300px;
+}
+th {
+    border: 1px solid black;
+    color: white;
+    background-color: gray;
+}
+td {
+    border: 1px solid black;
+}
+table .red td {
+    color: red;
+}
+table .blue td {
+    color: blue;
+}
+[class="blue"] {
+    color: blue;
+}
+[class="red"] {
+    color: red;
+}
+a { display: block;
+    border: 1px solid gray;
+    padding: 20px;
+    width: 60%;
+}
+a[target] {
+    background-color: orange;
+}
+a[title="fluffy"] {
+    background-color: pink;
+}
+img {
+    width: 150px;
+    margin-right: 40px;
+}
+img[src="img2.jpg"] {
+    border: 2px dashed red;
+}
+.ex6 {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.ex6 span[title="orange"] {
+    color: orange;
+    font-style: italic;
+}
+.ex6 span[title="blue"] {
+    color: blue;
+    font-weight: bold;
+}
+.ex7 label:not([title="not-done"]) {
+    text-decoration: line-through;
+}
+.ex8 label:nth-child(8), label:nth-child(11), label:nth-child(14) {
+    font-weight: bolder;
+}
+.ex8 label[title="checked"]::after {
+ content: " (default)";
+ font-weight: 100;
+} 
+.ex9 div {
+    border: 1px solid red;
+    padding: 50px;
+}
+.ex9 div label

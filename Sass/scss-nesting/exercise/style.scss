@@ -1,0 +1,48 @@
+$border: 4px solid black;
+$bg-color: rgba(0, 0, 0, 0.1);
+$red: rgba(255, 0, 0, 0.13);
+$big: 30px;
+body{
+
+background-color: $red;
+
+h1 {
+    text-align: center;
+    border: $border;
+    background-color: $bg-color;
+
+}
+.banner {
+    .slogan {
+        width: 100%;
+        height: 60vh;
+        background-image: url(apple-close-up-delicious-347926.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        border: $border;
+        span {
+            border: $border;
+            background-color: $bg-color;
+             font: {
+                size: 3em;
+                
+            }
+        }
+    }
+}
+.container {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-around;
+    .icon {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: $border;
+        background-color: $bg-color;
+        font-size: $big;
+    }
+}
+}

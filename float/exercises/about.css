@@ -1,0 +1,33 @@
+#nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#nav ul li a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 30px;
+    margin-left: 20px;
+    position: relative;
+    left: 900px;
+    
+}
+#middle {
+    overflow: auto;
+}
+#middle img {
+    float: right;
+    margin-right: 150px;
+    margin-bottom: 150px;
+}
+#middle h1, p, h2, ul {
+    margin-left: 50px;
+}
+#footer .left{
+    float: left;
+}
+#footer .right {
+    float: right;
+}

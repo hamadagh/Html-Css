@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+.header {
+    display: flex;
+    background-color: #3b5998;
+    width: 100%;
+    height: 80px;
+}
+.sign-in {
+    position: absolute;
+    right: 100px;
+    display: flex;
+    top: 17px;
+    
+}
+.logo {
+    padding-left: 140px;
+    padding-top: 23px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+}
+.email {
+    padding-right: 14px;
+}
+.password {
+    padding-right: 14px;
+}
+h5 {
+    color: white;
+    font-family: sans-serif;
+    padding-bottom: 8px;
+    font-style: normal;
+}
+.header button {
+border: 1px solid #29487d;
+background-color: #4267b2;
+color: white;
+margin: 9px;
+padding-right: 10px;
+border-radius: 2px;
+font-size: 12px;
+font-weight: bold;
+line-height: 18px;
+padding: 2px 6px;
+position: relative;
+top: 9px;
+
+}
+.middle {
+    background-color: #edf0f5;
+    display: flex;
+    height: 610px;
+}
+.middle .left {
+    width: 100%;
+    padding-right: 290px;
+}
+
+.middle .left h2, .first, .second, .third {
+    padding-left: 140px;
+    padding-top: 50px;
+}
+.middle .right {
+    padding-top: 30px;
+}
+.middle .right h2 {
+    font-family: sans-serif;
+    font-size: 38px;
+    color: rgba(14, 14, 15, 0.9);
+}
+.middle .right h4 {
+    font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    padding-bottom: 24px;
+}
+.right .first-form {
+    padding-bottom: 17px;
+}
+.right h3 {
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+.right .bth-form {
+    padding-bottom: 17px;
+}
+.right .checkbox {
+    padding-bottom: 17px;
+}

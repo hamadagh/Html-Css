@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Z-index</title>
+    <style>
+    .img1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .img2 {
+        position: absolute;
+        top: 40px;
+        z-index: -2;
+        left: 700px;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Z-index</h1>
+    <img class="img1" src="https://www.indiewire.com/wp-content/uploads/2018/02/screen-shot-2018-02-05-at-8-56-33-am.png">
+    <img class="img2" src="http://media.comicbook.com/2017/11/who-voices-hulk-in-thor-ragnarok-1048335.jpg">
+    <p>
+        the z-index property specifies the stack order of an element.An
+        element with a greater stack order is always in front of an element with a lower
+        stack order
+    </p>

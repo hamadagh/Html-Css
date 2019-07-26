@@ -1,0 +1,13 @@
+.firsttable tr td {
+    border: 3px solid red;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    padding: 10px;
+}
+.firsttable tr td:not(:first-child) {
+    border-left-color: gray;
+}
+.firsttable tr:nth-child(even) :first-child {
+    border-left-color: green;
+}

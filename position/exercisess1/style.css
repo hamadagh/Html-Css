@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+#left img[src="1.jpeg"] {
+    width: 530px;
+    height: 28vw;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#left img[src="cow.jpg"] {
+    width: 130px;
+    position: absolute;
+    left: 350px;
+    top: 120px;
+}
+
+#right #up {
+    display: flex;
+}
+
+#right #down {
+    display: flex;
+}
+
+#right img {
+    width: 190px;
+    height: 140px;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+#right img[src="3.jpeg"] {
+    position: relative;
+    top: 20px;
+}
+#right img[src="6.jpeg"] {
+    position: relative;
+    bottom: 20px;
+}
+h2 {
+    border: 2px transparent;
+    width: 270px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

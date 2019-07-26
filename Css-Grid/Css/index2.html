@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: [first-fraction] 1fr [second] 3fr [third] 4fr [fourth] 4fr [fifth];
+            grid-template-rows: [row1] 40px [row2] 200px [row3] 30px [row4];
+        }
+        .header {
+            background-color: aqua;
+            grid-column-start: first-fraction;
+            grid-column-end: fifth;
+        }
+        .menu {
+            background-color: blue;
+            grid-column-start: first-fraction;
+            grid-column-end: second;
+        }
+        
+        .content {
+            background-color: chartreuse;
+            grid-column-start: second;
+            grid-column-end: fifth;
+        }
+        .footer {
+            background-color: tomato;
+            grid-column-start: first-fraction;
+            grid-column-end: fifth;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="header">Header</div>
+    <div class="menu">MENU</div>
+    <div class="content">CONTENT</div>
+    <div class="footer">FOOTER</div>
+    </div>
+</body>
+</html>

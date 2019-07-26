@@ -1,0 +1,92 @@
+<! DOCTYPE html>
+<html>
+  <head>
+    <title>
+      CSS Selectors
+    </title>
+    <style>
+      .pseudoClass {
+        background-color: pink;
+      }
+      
+      #idSelector {
+        background-color: red;
+      }
+      .classSelector {
+        background-color: grey;
+      }
+      .classFont{
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .pseudoClass:hover {
+        background-color: white;
+      }
+      .pseudoElement::first-line {
+        font-size: 20px;
+        background-color: yellow;
+      }
+      
+      ul li:nth-child(2n+1) { 
+  color: blue;
+      }
+      
+      [data-value='open'] {
+        color: red;
+      }
+      
+      [myAttr='right'] {
+        color: blue;
+      }
+      [myAttr='wrong'] {
+        color: green;
+      }
+      
+      article > h3 {
+        color: blue;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>CSS Selectors</h1>
+    <p id='idSelector'>This element has an id</p>
+    <p id='idSelector'>This element has an id</p>
+    
+    <p class='classSelector classFont' id='idSelector' style='background-color: blue'>This element has an id and two classes. But the id is overwriting the first class.</p>
+    
+    <p class='pseudoClass'>Pseudo class selector matches an element only if it is in a specific state, eg. being hovered over.</p>
+    
+    <p class='pseudoElement'>Pseudo Selectors<br> are cool</p>    
+  </body>
+  
+  <hr>
+  
+  <p>Positional Selectors</p>
+  <ul>
+    <li>nope</li>
+    <li>yep, I'm #2</li>
+    <li>nope</li>
+    <li>yep, I'm #2</li>
+    <li>nope</li>
+    <li>yep, I'm #2</li>
+  </ul>
+  
+  <hr>
+  
+  <p>Attribute Selectors</p>
+  <p data-value='open'>Right Value</p>
+  <p data-value='false'>Right Value</p>
+  
+  <p>Attribute Selectors</p>
+  <p myAttr='right'>Right Value</p>
+  <p myAttr='wrong'>Right Value</p>
+  
+  <hr>
+  
+  <p>Child Selectors</p>
+  <article>
+    <h3>Child Selector</h3>
+    <p>The child combinator &gt is placed between two CSS selectors. It matches only those elements matched by the second selector that are the children of elements matched by the first.</p>
+  
+</html> 

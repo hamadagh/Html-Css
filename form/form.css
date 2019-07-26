@@ -1,0 +1,89 @@
+body {
+    font: 1em sans-serif;
+    font-size: 14px;
+}
+
+label {
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.right {
+    float: right;
+    width: 40%;
+    
+    margin-right: 70px;
+    box-sizing: content-box;
+    display: inline-block;
+    
+}
+.left {
+    float: left;
+    box-sizing: content-box;
+    width: 40%;
+    display: inline-block;
+    margin-left: 10px;
+    
+    
+}
+h2 {
+    background-color: #242933;
+    color: white;
+    padding: 10px;
+    opacity: 0.87;
+}
+.inputs {
+    width: 600px;
+    height: 22px;
+    margin-top: 10px;
+}
+.checkboxs {
+   
+}
+legend {
+    color: #3a87d8;
+    font-weight: bolder;
+    font-size: 17px;
+
+    
+} 
+.info {
+    position: relative;
+    top: 7px;
+    font-weight: bolder;
+    left: -5px;
+}
+.info2 {
+    position: relative;
+    top: 7px;
+    left: -5px;
+}
+.fieldset1 {
+    height: 550px;
+    width: 200px;
+    border-color: whitesmoke;
+    border: 1px thin;
+
+    
+}
+
+.fieldset2 {
+    height: 385px;
+    border-color: #ededed;
+
+    
+
+}
+.input2 {
+    width: 520px;
+    margin: 12px;
+    position: relative;
+    left: -13px;
+}
+input[type=button] {
+    background-color: green;
+    color: white;
+    padding: 6px 20px;
+    margin: 15px 0px 0px 0px;
+    border-radius: 7px;
+}

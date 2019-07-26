@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+   .firsttable td {
+       border: solid 4px;
+       width: 90px;
+       height: 30px;
+       border-right: none;
+       border-bottom: none;
+       border-top: none;
+       padding: 5px;
+       padding-right: 5px;
+    }
+    .firsttable td:first-child {
+    border-left-color: green;
+    }
+  .firsttable  td:nth-child(2) {
+        border-left-color: silver;
+    }
+  .firsttable  td:nth-child(3) {
+        border-left-color: silver;
+    }
+    
+  .firsttable  td.red {
+        border-left-color: red;
+    }
+
+    .secondtable td {
+        border: none 4px;
+        width: 90px;
+        height: 30px;
+        padding-left: 10px;
+    }
+    .secondtable th {
+        color: white;
+        background-color: gray;
+        padding: 8px;
+    }
+    .secondtable tr:nth-child(2) {
+        background-color: #B5B5B5;
+    }
+    .secondtable tr:nth-child(4) {
+        background-color: #B5B5B5;
+    }
+    .secondtable tr:nth-child(6) {
+        background-color: #B5B5B5;
+    }
+    .secondtable tr:nth-child(3) {
+        background-color: #D9D7D7;
+    }
+    .secondtable tr:nth-child(5) {
+        background-color: #D9D7D7;
+    }
+    .secondtable tr:nth-child(7) {
+        background-color: #D9D7D7;
+    }
+    .secondtable .red {
+background-color: #ffbbbb
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <table class="firsttable">
+       <tr>
+           <td class="red">Scott</td>
+           <td>Gomez</td>
+           <td>Player</td>
+       </tr>
+       <tr>
+        <td>Paul</td>
+        <td>Mackie</td>
+        <td>Coach</td>
+    </tr>
+    <tr>
+        <td class="red">Leonie</td>
+        <td>Cabrera</td>
+        <td>Assistant</td>
+    </tr>
+    <tr>
+        <td>Gregor</td>
+        <td>Byrne</td>
+        <td>Player</td>
+    </tr>
+    <tr>
+        <td class="red">Francis</td>
+        <td>Shaffer</td>
+        <td>Manager</td>
+    </tr>
+    <tr>
+        <td>Walter</td>
+        <td>Gale</td>
+        <td>Player</td>
+    </tr>
+
+    </table>
+    <br><hr>
+    <table class="secondtable">
+        <tr>
+            <th>First Name</th>
+            <th>Last name</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>Scott</td>
+            <td>Gomez</td>
+            <td>Player</td>
+        </tr>
+        <tr>
+         <td>Paul</td>
+         <td>Mackie</td>
+         <td>Coach</td>
+     </tr>
+     <tr>
+         <td>Leonie</td>
+         <td class="red">Cabrera</td>
+         <td>Assistant</td>
+     </tr>
+     <tr>
+         <td>Gregor</td>
+         <td>Byrne</td>
+         <td>Player</td>
+     </tr>
+     <tr>
+         <td>Francis</td>
+         <td>Shaffer</td>
+         <td>Manager</td>
+     </tr>
+     <tr>
+         <td>Walter</td>
+         <td class="red">Gale</td>
+         <td>Player</td>
+     </tr>
+    </table>
+
+</body>
+</html>

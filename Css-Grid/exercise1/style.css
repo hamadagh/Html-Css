@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+.grid {
+    margin: 0 auto;
+    width: 100%;
+}
+.nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-top: 1vh; 
+    height: 5vh;
+}
+.nav li {
+    list-style-type: none;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding-right: 2vw;
+}
+.logo {
+    padding-left: 5vw;
+    padding-right: 70vw;
+}
+.row-2 {
+    background-color: rgb(234, 236, 239);
+    padding-top: 8vh;
+    padding-bottom: 6vh;
+    padding-left: 1vw;
+
+
+}
+.row-3 {
+    display: flex;
+}
+.row-3 div {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    margin: 1vh;
+}
+.row-2, .row-3 {
+    margin: 2vw;
+    margin-right: 2vw;
+}
+input[type="button"] {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 8px;
+}
